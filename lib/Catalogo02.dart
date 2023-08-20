@@ -9,7 +9,7 @@ class Catalogo02 extends StatefulWidget {
   }
 }
 
-class Estrutura extends State {
+class Estrutura extends State<Catalogo02> {
   List<int> hoveredIndices =
       List<int>.generate(imagensComDescricoes.length, (index) => -1);
 
@@ -18,7 +18,8 @@ class Estrutura extends State {
     return Scaffold(
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(280.0),
+          padding: const EdgeInsets.all(
+              8.0), // Reduzi o padding para melhor visualização
           child: Column(
             children: List.generate(imagensComDescricoes.length, (index) {
               return Padding(
@@ -46,7 +47,7 @@ class Estrutura extends State {
     double horizontalSpacing = 16.0;
 
     return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.center, // Centraliza as imagens
       children: List.generate(imagens.length, (index) {
         return Padding(
           padding: EdgeInsets.symmetric(horizontal: horizontalSpacing),
@@ -139,7 +140,7 @@ List<List<String>> descricoes = [
   [
     'Kit Gamer Teclado Gamer Iluminado, Mouse Gamer Com Led  R\$68,28',
     'HP, Teclado e Mouse HP, GK1100, Preto, USB, ABNT 2 R\$175,41',
-    'Kit Teclado e Mouse Gamer HP GK1100, ABNT2 1600 DPI, Led R\$248,90'
+    'Kit Teclado e Mouse Gamer Multilaser-tc195 Led R\$148,90'
   ],
   [
     'Headphone Fone de Ouvido Havit HV-H2232d R\$75,00',
