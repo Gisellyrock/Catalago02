@@ -61,22 +61,25 @@ flutter:
   # To add assets to your application, add an assets section, like this:
 
   assets:
-    - imagens/mikrotik.jpeg
-    - imagens/mikrotik01.jpeg
-    - imagens/mikrotik02.jpeg
-    - imagens/mini.jpeg
-    - imagens/mini01.jpeg
-    - imagens/mini02.jpeg
-    - imagens/repetidor.jpeg
-    - imagens/repetidor01.jpeg
-    - imagens/repetidor02.jpeg
-    - imagens/usb.jpeg
-    - imagens/usb01.jpeg
-    - imagens/usb02.jpeg
-    - imagens/switch.jpeg
-    - imagens/switch01.jpeg
-    - imagens/switch02.jpeg
-  #   - images/a_dot_ham.jpeg
+    - imagens/controlecomfio.jpg 
+    - imagens/controlecomfio1.jpg 
+    - imagens/controlecomfio2.jpg 
+    - imagens/mousegamer.jpg 
+    - imagens/mousegamer1.jpg 
+    - imagens/mousegamer2.jpg 
+    - imagens/mousepadgamer.jpg 
+    - imagens/mousepadgamer1.jpg 
+    - imagens/mousepadgamer2.jpg 
+    - imagens/kit.jpg 
+    - imagens/kit1.jpg 
+    - imagens/kit2.jpg 
+    - imagens/fonedeouvidogamer.jpg 
+    - imagens/fonedeouvidogamer1.jpg 
+    - imagens/fonedeouvidogamer2.jpg 
+    - imagens/ledparagamer.jpg 
+    - imagens/ledparagamer1.jpg 
+    - imagens/ledparagamer2.jpg 
+  #   - images/a_dot_ham.jpg 
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
